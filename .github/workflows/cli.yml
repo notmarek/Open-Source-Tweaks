@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
-      run: cd DockIndicators
+      - run: cd DockIndicators
       - name: Build Rootless Package
         uses: L1ghtmann/theos-build@main
         with:
